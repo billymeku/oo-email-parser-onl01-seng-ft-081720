@@ -7,6 +7,13 @@ class EmailAddressParser
  
  @@arr = []
  def initialize(email)
+ @email = email.split(' ')
+    @@new_array << email
+end 
 
+def parse
+    @@new_array
+end 
+end 
   end 
 end 
