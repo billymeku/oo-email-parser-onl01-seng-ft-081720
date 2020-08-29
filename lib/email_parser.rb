@@ -13,7 +13,6 @@ end
 
 def parse
     @@new_array
-end 
-end 
   end 
+
 end 
