@@ -5,7 +5,7 @@
 class EmailAddressParser
  attr_accessor :email 
  
- @@arr = []
+@@new_array = []
  def initialize(email)
  @email = email.split(' ')
     @@new_array << email
