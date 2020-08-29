@@ -9,8 +9,9 @@ def initialize(emails)
   @emails = emails
   end 
  def parse
-   new_array= (@emails.delete ",").split(' ')
-    new_array.uniq
+   new_array= (@emails.delete ",")#.split(' ')
+   new_array.split(' ')
+   new_array.uniq
     end
 
 end 
