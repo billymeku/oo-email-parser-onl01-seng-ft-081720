@@ -10,7 +10,7 @@ def initialize(emails)
   end 
  def parse
    new_array= (@emails.delete ",")#.split(' ')
-   new_array.split(' ')
+  new_array.split(' '
    new_array.uniq
     end
 
